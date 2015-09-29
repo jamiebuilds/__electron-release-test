@@ -1,0 +1,20 @@
+{
+  "name": "electron-release-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "electron-release --app=test.app --token=$GITHUB_TOKEN",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejameskyle/__electron-release-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thejameskyle/__electron-release-test/issues"
+  },
+  "homepage": "https://github.com/thejameskyle/__electron-release-test#readme"
+}
